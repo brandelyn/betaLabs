@@ -135,17 +135,53 @@ public class betaLabWeek2 {
 				System.out.println("Access denied");
 			}
 			
+			//write a for loop that prints each number from 0 to 9
 			
+			for (int x = 0; x < 10; x++) {
+				System.out.println(x);
 			
 		}
-		
+		   //write a for loop that prints each number 10 to 0 backwards
+			
+			for(int i = 10; i >= 0; i--) {
+				System.out.println(i);
+			}
+		  
+	      //write a for loop that prints every other number from 0 to 100
+			
+			for(int b = 0; b <= 100; b += 2) {
+				System.out.println(b);
+				
+				//or
+				
+//			for (int b = 0; b <= 100; b++) {
+//				if (b % 2 == 0) {
+//					System.out.println(b);
+//				}
+			}
+			
+		  //write a for loop that iterates from 0 to 100 and prints "Even" if the number is even and "Odd" if it's odd
+			
+			for (int x = 0; x <= 100; x++) {
+				if (x % 2 ==0) {
+					System.out.println(x + " EVEN");
+				}else {
+					System.out.println(x + " ODD");
+				}
+			}
+				//write a while loop that starts at 100 and iterates backwards by 1 until it reaches 0
+			int j = 100;
+			while ( j >= 0) {
+				System.out.println(j % 3);
+				j--;
+			}
 		
 		
 		
 		
 		
 
-     
+		}
 
 	}
 
